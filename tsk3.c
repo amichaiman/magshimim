@@ -10,7 +10,7 @@ int main (void)
 	
     difficultyLevels(); //print options
 	scanf("%d",&level);  
-	
+    
 	if (level == leastDiff)
     {
         printf("you chose easy\n");
