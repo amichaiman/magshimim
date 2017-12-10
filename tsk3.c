@@ -6,12 +6,12 @@ enum difficultyLevel { leastDiff, moreDiff, mostDiff};
 
 int main (void)
 {
-	int level;
-	
+    int level;
+
     difficultyLevels(); //print options
-	scanf("%d",&level);  
+    scanf("%d",&level);  
     
-	if (level == leastDiff)
+    if (level == leastDiff)
     {
         printf("you chose easy\n");
     }
@@ -27,14 +27,14 @@ int main (void)
     {
         printf("Invalid input\n");
     }
-	return 0;
+    return 0;
 }
 
 void difficultyLevels()
 {
-	printf("Hi, pick your difficulty level: \n");
-	printf("Easy - 0\n");
-	printf("Medium - 1\n");
-	printf("Hard - 2\n");
-	
+    printf("Hi, pick your difficulty level: \n");
+    printf("Easy - 0\n");
+    printf("Medium - 1\n");
+    printf("Hard - 2\n");
+    
 }
